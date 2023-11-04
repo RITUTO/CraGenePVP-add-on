@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "CraGenePVPの鯖用",
+		"description": "rituto作",
+		"uuid": "c1d8bfc3-71a4-4d5c-9252-8bddc01f77ad",
+		"version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			19,
+			40
+		]
+	},
+	"modules": [
+		{
+			"description": "Script resources",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "1259b184-17a5-4879-a2e7-a60f41c454b6",
+			"version": [
+				0,
+				0,
+				1
+			],
+			"entry": "scripts/index.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.7.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	}
+}
